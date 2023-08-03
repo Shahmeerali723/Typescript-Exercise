@@ -4,11 +4,6 @@ let guest : string[] = [
     "Adil Bahi",
 ]
 
-guest.splice(2,1);
-let newGuest : string = "Ameen Bahi";
-
-guest.push(newGuest);
-
 let message : string = "You are cordially invited to my dinner party on Friday night.\n\nThe guests are:\n"
 
 for (let i = 0 ; i < guest.length ; i++) {
@@ -16,6 +11,18 @@ for (let i = 0 ; i < guest.length ; i++) {
 }
 
 console.log(message);
+
+console.log("Unfortunately, Adil  Bahi can't make it to the dinner.");
+
+guest[2] = "Ameen Bahi";
+
+let message1 : string = "You are cordially invited to my dinner party on Friday night.\n\nThe guests are:\n"
+
+for (let i = 0 ; i < guest.length ; i++) {
+    message1 += guest[i] + "\n";
+}
+
+console.log(message1);
 
 
 
