@@ -1,0 +1,15 @@
+let fName : string[] = [
+    "Sir Zia Khan",
+    "Daniyal Bahi",
+    "Adil Bahi",
+    "Miss Hira",
+    "Ameen Bahi",
+    "Imran Bahi",
+    "Sadaf Gull",
+    "Qalb-E-Momin"
+]
+
+for (let i = 0 ; i < fName.length ; i++) {
+    console.log(fName[i]);
+}
+
