@@ -1,45 +1,23 @@
-let place : string[] = [
-    "Silicon Valley",
-    "Germany",
-    "Isral",
-    "Egypt",
-    "Battle-Ground"
+let languages : string[] = [
+    "Urdu",
+    "English",
+    "Parsion",
+    "german",
+    "french"
 ]
 
-console.log(place); //print array
-
-console.log(place.sort());  //sort Alphabates level.
-
-console.log(place); // original order
-
-console.log(place.sort().reverse()); // reverse order
-
-console.log(place); // original order
-
-place.reverse(); // reverse order
-console.log(place);
-
-place.reverse(); // same again
-console.log(place);
-
-place.sort(); // sort 
-console.log(place);
-
-place.sort().reverse(); // sort + recerse
-console.log(place);
+console.log(languages);
 
 
+// let languages : string[] = [ // here is another5 way 
+//     "Urdu",
+//     "English",
+//     "Parsion",
+//     "german",
+//     "french"
+// ]
 
-
-
-
-
-
-
-
-
-
-
-  
-
-
+// for(let i = 0 ; i < languages.length ; i++) {
+//     console.log(languages[i]);
+    
+}

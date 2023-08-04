@@ -1,45 +1,14 @@
-let place : string[] = [
-    "Silicon Valley",
-    "Germany",
-    "Isral",
-    "Egypt",
-    "Battle-Ground"
-]
+let place : {country : string , city : string , block : number} = {
+    country : "pakistan" , 
+    city : "Karachi",
+    block : 15
+}
 
-console.log(place); //print array
-
-console.log(place.sort());  //sort Alphabates level.
-
-console.log(place); // original order
-
-console.log(place.sort().reverse()); // reverse order
-
-console.log(place); // original order
-
-place.reverse(); // reverse order
 console.log(place);
 
-place.reverse(); // same again
-console.log(place);
+console.log(place.country); // access the country same as its other
 
-place.sort(); // sort 
-console.log(place);
+console.log(place["block"]);// acces the block number
 
-place.sort().reverse(); // sort + recerse
-console.log(place);
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 

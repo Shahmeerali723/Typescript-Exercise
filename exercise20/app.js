@@ -1,21 +1,14 @@
 "use strict";
-let place = [
-    "Silicon Valley",
-    "Germany",
-    "Isral",
-    "Egypt",
-    "Battle-Ground"
+let fruits = [
+    "apple",
+    "banana",
+    "data",
+    "grapes"
 ];
-console.log(place); //print array
-console.log(place.sort()); //sort Alphabates level.
-console.log(place); // original order
-console.log(place.sort().reverse()); // reverse order
-console.log(place); // original order
-place.reverse(); // reverse order
-console.log(place);
-place.reverse(); // same again
-console.log(place);
-place.sort(); // sort 
-console.log(place);
-place.sort().reverse(); // sort + recerse
-console.log(place);
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[3]);
+// now passing the 
+console.log(fruits[4]);
+// in this case you don't know who many itmes inyour array and you want to call last item of the array then in the simple solution is 
+console.log(fruits[fruits.length - 1]);

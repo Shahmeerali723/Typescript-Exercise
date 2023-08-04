@@ -1,45 +1,28 @@
-let place : string[] = [
-    "Silicon Valley",
-    "Germany",
-    "Isral",
-    "Egypt",
-    "Battle-Ground"
+let guest : string[] = [
+    "Sir Zia Khan",
+    "Daniyal Bahi",
+    "Adil Bahi",
 ]
 
-console.log(place); //print array
+function countGuest(guest:string[]) : number {
+    return guest.length;
+}
+let numberOfGuest : number = countGuest(guest);
 
-console.log(place.sort());  //sort Alphabates level.
-
-console.log(place); // original order
-
-console.log(place.sort().reverse()); // reverse order
-
-console.log(place); // original order
-
-place.reverse(); // reverse order
-console.log(place);
-
-place.reverse(); // same again
-console.log(place);
-
-place.sort(); // sort 
-console.log(place);
-
-place.sort().reverse(); // sort + recerse
-console.log(place);
+console.log(`"Dear, ${numberOfGuest}  have for you a dinner tonight with me"`);
 
 
+// let guest : string[] = [ //here is a another way to solve that example
+//     "Sir Zia Khan",
+//     "Daniyal Bahi",
+//     "Adil Bahi",
+// ]
 
+// function countGuest(guest:string[]) : number {
+//     return guest.length;
+// }
+// let numberOfGuest : number = countGuest(guest);
 
-
-
-
-
-
-
-
-
-
-  
+// console.log(`"Dear, ${guest.length}  have for you a dinner tonight with me"`);
 
 
