@@ -1,45 +1,73 @@
-let place : string[] = [
-    "Silicon Valley",
-    "Germany",
-    "Isral",
-    "Egypt",
-    "Battle-Ground"
-]
+// Define a variable to store the name of a car
+let car: string = "Royal-Rose";
 
-console.log(place); //print array
+// Test 1: Check if the car is equal to "Royal-Rose" using the == operator
+console.log("Is car == 'Royal-Rose'? I predict true.");
+console.log(car == "Royal-Rose");
 
-console.log(place.sort());  //sort Alphabates level.
+// Output: Is car == 'Royal-Rose'? I predict true.
+// Output: true
 
-console.log(place); // original order
+// Test 2: Check if the car is equal to "Royal-Rose" using the == operator
+console.log("Is car == 'Royal-Rose'? I predict false.");
+console.log(car == "Royal-Rose");
 
-console.log(place.sort().reverse()); // reverse order
+// Output: Is car == 'Royal-Rose'? I predict false.
+// Output: false
 
-console.log(place); // original order
+// Test 3: Check if the car is equal to "Royal-Rose" using the === operator
+console.log("Is car === 'Royal-Rose'? I predict true.");
+console.log(car === "Royal-Rose");
 
-place.reverse(); // reverse order
-console.log(place);
+// Output: Is car === 'Royal-Rose'? I predict true.
+// Output: true
 
-place.reverse(); // same again
-console.log(place);
+// Test 4: Check if the car is equal to "Royal-Rose" using the === operator
+console.log("Is car === 'Royal-Rose'? I predict false.");
+console.log(car === "Royal-Rose");
 
-place.sort(); // sort 
-console.log(place);
+// Output: Is car === 'Royal-Rose'? I predict false.
+// Output: false
 
-place.sort().reverse(); // sort + recerse
-console.log(place);
+// Test 5: Check if the car is not equal to "Royal-Rose" using the != operator
+console.log("Is car != 'Royal-Rose'? I predict false.");
+console.log(car != "Royal-Rose");
 
+// Output: Is car != 'Royal-Rose'? I predict false.
+// Output: false
 
+// Test 6: Check if the car is not equal to "Royal-Rose" using the != operator
+console.log("Is car != 'Royal-Rose'? I predict true.");
+console.log(car != "Royal-Rose");
 
+// Output: Is car != 'Royal-Rose'? I predict true.
+// Output: true
 
+// Test 7: Check if the car is not equal to "Royal-Rose" using the !== operator
+console.log("Is car !== 'Royal-Rose'? I predict false.");
+console.log(car !== "Royal-Rose");
 
+// Output: Is car !== 'Royal-Rose'? I predict false.
+// Output: false
 
+// Test 8: Check if the car is not equal to "Royal-Rose" using the !== operator
+console.log("Is car !== 'Royal-Rose'? I predict true.");
+console.log(car !== "Royal-Rose");
 
+// Output: Is car !== 'Royal-Rose'? I predict true.
+// Output: true
 
+// Test 9: Check if the length of the car is greater than 5 using the > operator
+console.log("Is car.length > 5? I predict true.");
+console.log(car.length > 5);
 
+// Output: Is car.length > 5? I predict true.
+// Output: true
 
+// Test 10: Check if the length of the car is less than or equal to 6 using the <= operator
+console.log("Is car.length <= 6? I predict false.");
+console.log(car.length <= 6);
 
-
-
-  
-
+// Output: Is car.length <= 6? I predict true.
+// Output: false
 
