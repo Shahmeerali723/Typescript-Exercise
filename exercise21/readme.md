@@ -12,5 +12,7 @@ console.log(car == 'subaru')
 
 • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 
+Initialize Typescript in your Project.
+
         tsc --init
 
