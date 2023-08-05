@@ -1,21 +1,10 @@
-// Define a variable to store the alien's color
-let alien_color: string = "green";
+// declare an array of usernames and assign it to a variable 
+let usernames: string[] = ["admin", "alex", "sensei", "bob", "aric"]; // you can change the values to your preferences
 
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
-
-// Output: You just earned 5 points!
-
-// Define a variable to store the alien's color
-let alien_color1: string = "red";
-
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
-
-// Output: (nothing)
+// loop through the array using a for-of loop 
+for (let username of usernames) { // check if the username is ‘admin’ 
+    if (username === "admin") { // print a special greeting for the admin 
+        console.log("Hello admin, would you like to see a status report?"); 
+    } else { // print a generic greeting for other users 
+        console.log("Hello ${username}, thank you for logging in again."); } 
+    }
