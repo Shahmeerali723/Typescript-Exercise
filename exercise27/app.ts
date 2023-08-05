@@ -1,21 +1,13 @@
-// Define a variable to store the alien's color
-let alien_color: string = "green";
+let favorite_fruits: string[] = ["mango", "banana", "apple"];
 
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
+if (favorite_fruits.includes("mango")) { 
+  console.log("You really like mangoes!"); 
+} if (favorite_fruits.includes("banana")) { 
+  console.log("You really like bananas!"); 
+} if (favorite_fruits.includes("apple")) { 
+  console.log("You really like apples!"); 
+} if (favorite_fruits.includes("orange")) { 
+  console.log("You really like oranges!");
+} if (favorite_fruits.includes("grape")) { 
+  console.log("You really like grapes!")
 }
-
-// Output: You just earned 5 points!
-
-// Define a variable to store the alien's color
-let alien_color1: string = "red";
-
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
-
-// Output: (nothing)

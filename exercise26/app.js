@@ -1,17 +1,21 @@
 "use strict";
-// Define a variable to store the alien's color
-let alien_color = "green";
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+let age = 25; // you can change this value to test different cases
+// use if-else statements to check the age and print the corresponding message 
+if (age < 2) {
+    console.log("The person is a baby.");
 }
-// Output: You just earned 5 points!
-// Define a variable to store the alien's color
-let alien_color1 = "red";
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+else if (age < 4) {
+    console.log("The person is a toddler.");
 }
-// Output: (nothing)
+else if (age < 13) {
+    console.log("The person is a kid.");
+}
+else if (age < 20) {
+    console.log("The person is a teenager.");
+}
+else if (age < 65) {
+    console.log("The person is an adult.");
+}
+else {
+    console.log("The person is an elder.");
+}

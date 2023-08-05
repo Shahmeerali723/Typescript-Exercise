@@ -1,17 +1,17 @@
 "use strict";
-// Define a variable to store the alien's color
-let alien_color = "green";
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+let favorite_fruits = ["mango", "banana", "apple"];
+if (favorite_fruits.includes("mango")) {
+    console.log("You really like mangoes!");
 }
-// Output: You just earned 5 points!
-// Define a variable to store the alien's color
-let alien_color1 = "red";
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+if (favorite_fruits.includes("banana")) {
+    console.log("You really like bananas!");
 }
-// Output: (nothing)
+if (favorite_fruits.includes("apple")) {
+    console.log("You really like apples!");
+}
+if (favorite_fruits.includes("orange")) {
+    console.log("You really like oranges!");
+}
+if (favorite_fruits.includes("grape")) {
+    console.log("You really like grapes!");
+}
