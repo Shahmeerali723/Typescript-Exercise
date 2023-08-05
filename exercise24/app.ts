@@ -1,21 +1,10 @@
-// Define a variable to store the alien's color
-let alien_color: string = "green";
+// Define a variable to store the alien’s color 
+let alien_color: string = "red";
 
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
+// Write an if-else chain to test the alien’s color 
+if (alien_color == "green") { // Print a statement that the player just earned 5 points for shooting the alien 
+  console.log("You just earned 5 points for shooting the alien!"); } 
+  else { // Print a statement that the player just earned 10 points 
+    console.log("You just earned 10 points!"); }
 
-// Output: You just earned 5 points!
-
-// Define a variable to store the alien's color
-let alien_color1: string = "red";
-
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
-
-// Output: (nothing)
+// Output: You just earned 10 points!
