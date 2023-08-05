@@ -1,21 +1,17 @@
 "use strict";
-let place = [
-    "Silicon Valley",
-    "Germany",
-    "Isral",
-    "Egypt",
-    "Battle-Ground"
-];
-console.log(place); //print array
-console.log(place.sort()); //sort Alphabates level.
-console.log(place); // original order
-console.log(place.sort().reverse()); // reverse order
-console.log(place); // original order
-place.reverse(); // reverse order
-console.log(place);
-place.reverse(); // same again
-console.log(place);
-place.sort(); // sort 
-console.log(place);
-place.sort().reverse(); // sort + recerse
-console.log(place);
+// Define a variable to store the alien's color
+let alien_color = "green";
+// Write an if statement to test whether the alien's color is green
+if (alien_color == "green") {
+    // Print a message that the player just earned 5 points
+    console.log("You just earned 5 points!");
+}
+// Output: You just earned 5 points!
+// Define a variable to store the alien's color
+let alien_color1 = "red";
+// Write an if statement to test whether the alien's color is green
+if (alien_color1 == "green") {
+    // Print a message that the player just earned 5 points
+    console.log("You just earned 5 points!");
+}
+// Output: (nothing)
