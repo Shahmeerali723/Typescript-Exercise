@@ -1,21 +1,8 @@
-// Define a variable to store the alien's color
-let alien_color: string = "green";
+let animals: string[] = ["cat", "rabbit", "hamster"];
 
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
+// Use a for loop to print out the name of each animal 
+for (let animal of animals) { // Modify your program to print a statement about each animal, such as // A dog would make a great pet 
+    console.log("A " + animal + " would make a great pet."); }
 
-// Output: You just earned 5 points!
-
-// Define a variable to store the alien's color
-let alien_color1: string = "red";
-
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
-
-// Output: (nothing)
+// Add a line at the end of your program stating what these animals have in // common. You could print a sentence such as Any of these animals would // make a great pet! 
+console.log("Any of these animals would make a great pet because they are cute, furry, and friendly!");
