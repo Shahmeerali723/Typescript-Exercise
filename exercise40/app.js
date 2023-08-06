@@ -1,17 +1,19 @@
 "use strict";
-// Define a variable to store the alien's color
-let alien_color = "green";
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+// Start with a copy of your program from Exercise 39 // Make a array of magician’s names 
+let magicians = ["David Copperfield", "Harry Houdini", "Dynamo", "Penn and Teller"];
+// Pass the array to a function // called show_magicians(), which prints the name of each magician in the array 
+function show_magicians(magicians) {
+    for (let magician of magicians) { // Print the name of each magician 
+        console.log(magician);
+    }
 }
-// Output: You just earned 5 points!
-// Define a variable to store the alien's color
-let alien_color1 = "red";
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+// Write a function called make_great() that modifies the array of magicians by adding // the phrase the Great to each magician’s name 
+function make_great(magicians) {
+    for (let i = 0; i < magicians.length; i++) { // Add the phrase the Great to each magician’s name 
+        magicians[i] = magicians[i] + " the Great";
+    }
 }
-// Output: (nothing)
+// Call make_great() with the array of magicians 
+make_great(magicians);
+// Call show_magicians() to // see that the list has actually been modified 
+show_magicians(magicians);
