@@ -1,4 +1,5 @@
-let current_users: string[] = ["john", "alice", "bob", "charlie", "david"]; // you can change the values to your preferences
+let current_users: string[] = ["john", "alice", "bob", "charlie", "david"]; 
+// you can change the values to your preferences
 
 // declare a list of new usernames and assign it to a variable 
 let new_users: string[] = ["eric", "frank", "alice", "grace", "JOHN"]; // you can change the values to your preferences
