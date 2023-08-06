@@ -1,17 +1,11 @@
 "use strict";
-// Define a variable to store the alien's color
-let alien_color = "green";
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+// Make a array of magician’s names 
+let magicians = ["David Copperfield", "Harry Houdini", "Dynamo", "Penn and Teller"];
+// Pass the array to a function // called show_magicians(), which prints the name of each magician in the array 
+function show_magicians(magicians) {
+    for (let magician of magicians) { // Print the name of each magician 
+        console.log(magician);
+    }
 }
-// Output: You just earned 5 points!
-// Define a variable to store the alien's color
-let alien_color1 = "red";
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
-}
-// Output: (nothing)
+// Call the function with the array of magicians 
+show_magicians(magicians);
