@@ -1,17 +1,9 @@
 "use strict";
-// Define a variable to store the alien's color
-let alien_color = "green";
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+// Write a function called describe_city() that accepts the name of // a city and its country 
+function describe_city(city, country = "Pakistan") {
+    console.log(city + " is in " + country + ".");
 }
-// Output: You just earned 5 points!
-// Define a variable to store the alien's color
-let alien_color1 = "red";
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
-}
-// Output: (nothing)
+// Call your function for three different cities, at least one of which is not in the // default country 
+describe_city("Karachi");
+describe_city("Islamabad");
+describe_city("Paris", "France");
