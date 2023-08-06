@@ -1,21 +1,22 @@
-// Define a variable to store the alien's color
-let alien_color: string = "green";
+let originalNumbers : number[] = [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+]
 
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
-
-// Output: You just earned 5 points!
-
-// Define a variable to store the alien's color
-let alien_color1: string = "red";
-
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-  // Print a message that the player just earned 5 points
-  console.log("You just earned 5 points!");
-}
-
-// Output: (nothing)
+for (let originalNumber of originalNumbers) {
+  if (originalNumber === 1) {
+    console.log(originalNumber + "st"); }
+    else if (originalNumber === 2) {
+      console.log(originalNumber + "nd");}
+      else if (originalNumber === 3) {
+        console.log(originalNumber + "rd");}
+        else {
+          console.log(originalNumber + "th");} 
+  }

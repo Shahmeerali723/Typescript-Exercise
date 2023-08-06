@@ -1,17 +1,26 @@
 "use strict";
-// Define a variable to store the alien's color
-let alien_color = "green";
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+let originalNumbers = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+];
+for (let originalNumber of originalNumbers) {
+    if (originalNumber === 1) {
+        console.log(originalNumber + "st");
+    }
+    else if (originalNumber === 2) {
+        console.log(originalNumber + "nd");
+    }
+    else if (originalNumber === 3) {
+        console.log(originalNumber + "rd");
+    }
+    else {
+        console.log(originalNumber + "th");
+    }
 }
-// Output: You just earned 5 points!
-// Define a variable to store the alien's color
-let alien_color1 = "red";
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
-}
-// Output: (nothing)
