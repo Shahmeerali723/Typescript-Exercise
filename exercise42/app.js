@@ -1,17 +1,12 @@
 "use strict";
-// Define a variable to store the alien's color
-let alien_color = "green";
-// Write an if statement to test whether the alien's color is green
-if (alien_color == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
+// Write a function that accepts a array of items a person wants // on a sandwich 
+function make_sandwich(items) {
+    console.log("You ordered a sandwich with the following items:"); // Use a for loop to iterate over the array of items 
+    for (let item of items) { // Print each item 
+        console.log("- " + item);
+    }
 }
-// Output: You just earned 5 points!
-// Define a variable to store the alien's color
-let alien_color1 = "red";
-// Write an if statement to test whether the alien's color is green
-if (alien_color1 == "green") {
-    // Print a message that the player just earned 5 points
-    console.log("You just earned 5 points!");
-}
-// Output: (nothing)
+// Call the function three times, using a different number // of arguments each time 
+make_sandwich(["cheese", "ham", "lettuce"]);
+make_sandwich(["peanut butter", "jam"]);
+make_sandwich(["turkey", "bacon", "tomato", "mayo"]);
