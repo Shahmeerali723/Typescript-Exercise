@@ -4,3 +4,6 @@ Initialize Typescript in your Project.
 
         tsc --init
 
+Run that command to see the output.
+
+        tsc & node app.js
